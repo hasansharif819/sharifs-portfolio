@@ -13,13 +13,13 @@ function App() {
   return (
     <div className="App bg-black">
       <Menubar/>
-      <ToastContainer />
       <Home />
       <About />
       <Skill />
       <Project />
       <Contact />
       <Footer />
+      <ToastContainer />
     </div>
   );
 }
