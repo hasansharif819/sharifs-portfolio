@@ -1,7 +1,6 @@
 import React from 'react';
 import TypeAnimation from 'react-type-animation';
 import portfolio from '../Image/portfolio.gif';
-import sharif1 from '../Image/sharif1.jpg';
 import cv from '../file/Sharif_Hasan_web_developer_resume.pdf';
 
 const Home = () => {
@@ -13,18 +12,18 @@ const Home = () => {
 
                         Hello,
                         <br />
-                        I'm <span className='text-primary'>Sharif Hasan</span>
+                        I'm <span className='text-primary font-bold'>Sharif Hasan</span>
 
                     </h1>
-                    <p className="py-6 text-2xl text-gray-400">
+                    <p className="py-6 text-2xl text-primary">
                         <TypeAnimation
                             cursor={true}
                             sequence={[
-                                "Fullstack Web Developer",
-                                2000,
                                 "Front-end Developer",
-                                2000,
+                                3000,
                                 "UI & UX Designer",
+                                2000,
+                                "Fullstack Web Developer",
                                 2000
                             ]}
                             wrapper="a"

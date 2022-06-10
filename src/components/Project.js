@@ -3,6 +3,7 @@ import bhuiyan from '../Image/bhuiyan.png';
 import smart from '../Image/smart.png';
 import tanjum from '../Image/tanjum.png';
 import eng from '../Image/eng.png';
+import { Link } from 'react-daisyui';
 
 const Project = () => {
     return (
@@ -28,7 +29,13 @@ const Project = () => {
                             </p>
                             <div className="card-actions flex-col">
                                 <p>Use: react.js React Router,DaisyUI, Node.js, Mongodb, Html5,css3</p>
+
+                                <div className='flex gap-28 justify-end'>
                                 <a href="https://bhuiyan-tools.web.app/" target="_blank" className="btn btn-primary">Live Site</a>
+                                <a href="https://bhuiyan-tools.web.app/" target="_blank" className="btn btn-primary">Details</a>
+
+                                </div>
+
                             </div>
                         </div>
                     </div>
@@ -51,7 +58,10 @@ const Project = () => {
                             </p>
                             <div className="card-actions flex-col">
                                 <p>Use: react.js React Router, react-bootstrap, Node.js, Mongodb, Html5,css3</p>
+                                <div className='flex gap-28'>
                                 <a href="https://smart-zone-819.web.app/" className="btn btn-primary">Live Site</a>
+                                <a href="https://smart-zone-819.web.app/" className="btn btn-primary">Details</a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -66,11 +76,17 @@ const Project = () => {
                                 <ul className='list-disc'>
                                     <li>User can chooses any product</li>
                                     <li>user can buy product & accessaries</li>
+                                    <li>user needs to signin/signup</li>
+                                    <li>user can signin/signup using google</li>
+                                    <li>Required Auth used for Checkout</li>
                                 </ul>
                             </p>
                             <div className="card-actions flex-col">
-                                <p>use: reacr.js, bootstrap, html5, css3</p>
+                                <p>use: reacr.js, bootstrap, html5, css3, Firebase</p>
+                                <div className='flex justify-between gap-28'>
                                 <a href="https://tanjums-shop.netlify.app/" className="btn btn-primary">Live Site</a>
+                                <a href="https://tanjums-shop.netlify.app/" className="btn btn-primary">Details</a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -90,7 +106,10 @@ const Project = () => {
                             </p>
                             <div className="card-actions flex-col">
                                 <p>use: reacr.js, bootstrap, html5, css3</p>
-                                <a href="https://engineers-diary-sharif819.netlify.app/" className="btn btn-primary">Live Site</a>
+                                <div className='flex gap-28'>
+                                <a href="https://engineer-diary.web.app/" target='_blank' className="btn btn-primary">Live Site</a>
+                                <a href="https://engineer-diary.web.app/" target='_blank' className="btn btn-primary">Details</a>
+                                </div>
                             </div>
                         </div>
                     </div>

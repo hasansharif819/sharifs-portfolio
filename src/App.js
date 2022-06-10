@@ -14,9 +14,9 @@ function App() {
     <div className="App bg-black">
       <Menubar/>
       <Home />
-      <About />
       <Skill />
       <Project />
+      <About />
       <Contact />
       <Footer />
       <ToastContainer />

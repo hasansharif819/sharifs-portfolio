@@ -3,6 +3,8 @@ import sharif1 from '../Image/sharif1.jpg'
 const About = () => {
     return (
         <div id='about'>
+            <h1 className='text-3xl text-center text-gray-300 my-10'>About</h1>
+
 
             <div className="card rounded-none lg:card-side bg-black shadow-xl">
                 <figure className='w-2/6'><img height={400} width={400} src={sharif1} alt="Album" /></figure>
@@ -31,9 +33,9 @@ const About = () => {
                         Computer Science and Engineering (CSE)
                         <br />
                         Institute of Science and Technology(IST), Dhanmondi Dhaka, Bangladesh
-
                     </p>
                 </div>
+                
             </div>
         </div>
     );
