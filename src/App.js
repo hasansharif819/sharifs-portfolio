@@ -8,6 +8,7 @@ import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import Footer from './components/Footer';
 import Menubar from './components/Menubar';
+import Blogs from './components/Blogs';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Home />
       <Skill />
       <Project />
+      <Blogs></Blogs>
       <About />
       <Contact />
       <Footer />
