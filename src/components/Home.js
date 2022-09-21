@@ -15,23 +15,24 @@ const Home = () => {
                         I'm <span className='text-primary font-bold'>Sharif Hasan</span>
 
                     </h1>
-                    <p className="py-6 text-2xl text-primary">
+                    <p className="py-6 text-2xl text-primary font-semibold">
                         <TypeAnimation
                             cursor={true}
                             sequence={[
-                                "Front-end Developer",
+                                "Web Developer",
                                 3000,
-                                "UI & UX Designer",
+                                "Front-end Developer",
                                 2000,
-                                "Fullstack Web Developer",
+                                "Full-Stack (MERN) Developer",
                                 2000
                             ]}
                             wrapper="a"
                             repeat={1}
                         />
                     </p>
-                    <p className='text-gray-500'>As a full-stack web developer, I am passionate about working for a software company where I can hardness my talents in web design, front-end, back-end, UI and UX design web development to provide excellent customer service.</p>
-                    <a href={cv} className=' text-primary border-b-2 border-primary p-2 my-5'><button className="rounded-full">Get Resume</button></a>
+                    <p className='text-white font-semibold'>As a full-stack web developer, I am passionate about working for a software company where I can hardness my talents in web design, front-end, back-end, UI and UX design web development to provide excellent customer service.</p>
+                    <br />
+                    <a href={cv} className=' text-primary border-b-2 border-primary p-2 my-5 font-bold'><button className="rounded-full">RESUME</button></a>
                 </div>
             </div>
         </div>
